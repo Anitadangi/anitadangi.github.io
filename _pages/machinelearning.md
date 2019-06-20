@@ -3,6 +3,9 @@ layout: archive
 permalink: /projects/
 title: "Projects"
 author_profile: true
+header:
+  image: "/images/shapes.jpg"
+
 ---
 {% include group-by-array collection=site.posts field="tags" %}
 
